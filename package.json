@@ -1,7 +1,7 @@
 {
   "name": "hubot-dev-excuse-reply",
   "description": "A hubot script for replying to a bug report with a random developer excuse",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Jorge Sierra <j.sierra@case-inc.com>",
   "license": "MIT",
   "keywords": [
