@@ -1,4 +1,3 @@
-/***
 # Description:
 #   Reply to a coworker with a random developer excuse
 #
@@ -13,7 +12,6 @@
 #
 # Author:
 #   jorgesierra
-***/
 
 EXCUSES = {
   1: "it works on my machine.",
@@ -41,4 +39,4 @@ EXCUSES = {
 
 module.exports = (robot) ->
   robot.respond /reply to (.+)/i, (msg) ->
-    msg.send msg.match[1]+", "+EXCUSES[Math.floor(Math.random() * (EXCUSES.length - 0) + 0)]
+    msg.send msg.match[1]+", "+EXCUSES[Math.floor(Math.random() * (Object.keys(EXCUSES).length) + 0)]
