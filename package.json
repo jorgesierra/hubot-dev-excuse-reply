@@ -33,5 +33,9 @@
   "main": "index.coffee",
   "scripts": {
     "test": "grunt test"
+  },
+  "homepage": "https://github.com/jorgesierra/hubot-dev-excuse-reply#readme",
+  "directories": {
+    "test": "grunt test"
   }
 }
