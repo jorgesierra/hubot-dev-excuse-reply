@@ -17,9 +17,6 @@
   "bugs": {
     "url": "https://github.com/jorgesierra/hubot-dev-excuse-reply/issues"
   },
-  "dependencies": {
-    "coffee-script": "~1.6"
-  },
   "devDependencies": {
     "mocha": "*",
     "chai": "*",

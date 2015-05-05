@@ -1,3 +1,4 @@
+/***
 # Description:
 #   Reply to a coworker with a random developer excuse
 #
@@ -12,6 +13,7 @@
 #
 # Author:
 #   jorgesierra
+***/
 
 EXCUSES = {
   1: "it works on my machine.",
