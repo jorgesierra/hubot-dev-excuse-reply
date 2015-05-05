@@ -1,0 +1,37 @@
+{
+  "name": "hubot-dev-excuse-reply",
+  "description": "A hubot script for replying to a bug report with a random developer excuse",
+  "version": "0.0.1",
+  "author": "Jorge Sierra <j.sierra@case-inc.com>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "excuse",
+    "developer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jorgesierra/hubot-dev-excuse-reply.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorgesierra/hubot-dev-excuse-reply/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
